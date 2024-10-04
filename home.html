@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- code of Netflix Landing Page -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Landing Page</title>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="home.js"></script> 
+</head>
+
+<body>
+    <div class="content">
+
+        <!-- Nav Bar -->
+        <nav>
+            <div id="nav-bar">
+                <a href="https://www.netflix.com"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" id="netflix-symbol"
+                        alt="Netflix Symbol"></a>
+                <div class="navContainer">
+                    <ul class="nav-ul">
+                        <li class="nav-li"><a class="active" href="#hero">Home</a></li>
+                        <li class="nav-li"><a href="#cast_carousel">Characters</a></li>
+                        <li class="nav-li"><a
+                                href="https://www.youtube.com/@YashMittalz/videos">Episodes</a>
+                        </li>
+                        <li class="nav-li"><a href="https://www.netflix.com/login" class="cta-button"
+                                id="signin-btn">SIGN IN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <header>
+                <img src="yosmos-logo.png"
+                    alt="The Yosmos Logo" id="yosmos-logo"><br>
+                <div class="banner">
+                    <div class="banner-content">
+                        <h1>Yosmos</h1>
+                        <p><br>A place that answers all your space questions.</br> And as always stay curious!</p>
+                        <a href="https://www.youtube.com/c/YashMittalz" class="cta-button">Watch Now</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- Trailer Section -->
+        <div class="container">
+            <div class="image-stack">
+                <div class="image-stack__item image-stack__item--top">
+                    <div class="trailer"><br>
+                        <h2>Watch the Season 2 Trailer</h2>
+                        <div class="container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/uaOwngRvupE?si=Fz9bkbVcYrUZSkA6" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-stack__item image-stack__item--bottom">
+                    <div class="image-2">
+                        <img src="mars-1.jpg" id="bg-image-2"
+                            alt="Mars 1">
+                    </div>
+                </div>
+
+                <!-- Character Carousel -->
+                <div class="image-stack__item image-stack__item--bottom2">
+                    <main id="cast_carousel">
+                        <ul class="slider">
+                            <li class="item"
+                                style="background-image: url(slider-bg-1.jpg);">
+                                <div class="carousel-content">
+                                    <h1 class="title">Yosmos 1</h1>
+                                    <p class="description">Space exploration 1</p>
+                                </div>
+                            </li>
+                            <li class="item"
+                                style="background-image: url(slider-bg-2.jpg); background-position: top;">
+                                <div class="carousel-content">
+                                    <h1 class="title">Yosmos 2</h1>
+                                    <p class="description">Space exploration 2</p>
+                                </div>
+                            </li>
+                            <li class="item"
+                                style="background-image: url(slider-bg-3.jpg);">
+                                <div class="carousel-content">
+                                    <h1 class="title">Yosmos 3</h1>
+                                    <p class="description">Space exploration 3 </p>
+                                </div>
+                            </li>
+                            <li class="item"
+                                style="background-image: url(slider-bg-4.jpg); background-position: top; ">
+                                <div class="carousel-content">
+                                    <h1 class="title">Yosmos 4</h1>
+                                    <p class="description">Space exploration 4</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <nav class='nav'>
+                            <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+                            <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+                        </nav>
+                    </main>
+                    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                    <script src="./script.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

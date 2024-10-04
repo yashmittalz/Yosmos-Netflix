@@ -76,4 +76,6 @@ SOFTWARE.
 ## Update Log
 
 - **Sat Jul 20 11:00:11 2024 -0700**: 
-Initial project setup for Yosmos Netflix series homepage (Author: Yash Mittal)
+Initial project setup for Yosmos Netflix series homepage
+- **Sun Jul 21 09:21:31 2024 -0700**: 
+Initial MVP release with core features implemented

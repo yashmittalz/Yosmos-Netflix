@@ -13,13 +13,13 @@ body,
             position: fixed;
             left: 0;
             top: 0;
-            right: -5px; /* Added unit 'px' */
+            right: -5px;
             z-index: -1;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position: left;
+            background-position: center;
             width: 100%;
             height: 100%;
         }
